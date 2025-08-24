@@ -43,29 +43,9 @@
 - Not publicly accessible.
 - The IAM user should be able to list this bucket (see it in S3 list) but not access its contents.
 
-## Here is the s3 static website url
-[s3-website](http://cloud-launch-site-bucket-gabriel.s3-website-us-east-1.amazonaws.com)
-
-## Here is the s3 cloudfront website url
-[s3-cloudfront-url](http://cloud-launch-site-bucket-gabriel.s3-website-us-east-1.amazonaws.com)
-
-### The webpage image
-![webpage](./Task1/publicaccessbucket/s3-website.png)
-
-### The webpage image with cloudfront
-![webpage-cloudfront](./Task1/publicaccessbucket/s3cloudfront.png)
-
-### The working terminal with s3 cloudfront
-![terminal-on-s3cloudfront](./Task1/publicaccessbucket/s3cloudfront2.png)
-
-### The working terminal
-![terminal-on](./Task1/publicaccessbucket/s3-terminal1-cdn.png)
-
-
 
 ### The destroyed terminal
-![terminal-off](./Task1/publicaccessbucket/s3-terminal.cdn.destroy2.png)
-
+![image4](<Screenshot 2025-08-24 202932.png>)
 
 
 
@@ -109,4 +89,3 @@
 *Your IAM user cloudlaunch-user should have read-only (list/view) access to the VPC alone and its components (subnets, route table, security groups).*
 
 ![image3](<Screenshot 2025-08-24 164011.png>)
-![image4](<Screenshot 2025-08-24 202932.png>)
