@@ -25,7 +25,7 @@
 
 ## Kindly look at the code snippets for more understanding (publicaccessbucket)
 
-
+![image![image1](<Screenshot 2025-08-24 163729.png>)]
 
 *The private access bucket, has the following*
 
@@ -34,7 +34,7 @@
 - A designated IAM user (created by you) should have permissions to GetObject and PutObject only (no Delete).
 
 ## Kindly look at the code snippets for more understanding (privatebucket)
-
+![image2](<Screenshot 2025-08-24 163829.png>)
 
 
 *The visible only access bucket, has the following*
@@ -42,8 +42,6 @@
 - Cloudlaunch-visible-only-bucket
 - Not publicly accessible.
 - The IAM user should be able to list this bucket (see it in S3 list) but not access its contents.
-
-## Kindly look at the code snippets for more understanding (visibleonlybucket)
 
 ## Here is the s3 static website url
 [s3-website](http://cloud-launch-site-bucket-gabriel.s3-website-us-east-1.amazonaws.com)
@@ -109,3 +107,6 @@
 
 ##  IAM Permissions:
 *Your IAM user cloudlaunch-user should have read-only (list/view) access to the VPC alone and its components (subnets, route table, security groups).*
+
+![image3](<Screenshot 2025-08-24 164011.png>)
+![image4](<Screenshot 2025-08-24 202932.png>)
